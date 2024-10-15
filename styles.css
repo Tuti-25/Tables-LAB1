@@ -1,0 +1,28 @@
+body {
+  min-width: 1200px;
+  height: 800px;
+}
+
+.main--table {
+  border: 0.1em solid #111;
+  width: 90%;
+  height: 90%;
+}
+
+td {
+  border: 0.1em solid #111;
+}
+
+.first--table {
+  border: 0.1em solid #111;
+  height: 100%;
+  width: 33%;
+  text-align: center;
+}
+
+.second--table {
+  border: 0.1em solid #111;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
