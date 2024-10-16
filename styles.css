@@ -5,23 +5,140 @@ body {
 
 .main--table {
   border: 0.1em solid #111;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
+  margin: 1em;
 }
 
 td {
   border: 0.1em solid #111;
+  padding: 1em;
 }
 
+/* ------------------------FIRST TABLE----------------------- */
+
 .first--table {
-  border: 0.1em solid #111;
+  text-align: center;
   height: 100%;
-  width: 33%;
+  width: 10em;
+  margin: auto;
+  border-collapse: collapse;
+}
+.first--table tr {
+  font-size: 0.6em;
+  font-weight: 500;
+}
+
+.first--table tr:nth-child(1) {
+  background-color: #bbb;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+/* -----------------------SECOND TABLE----------------------- */
+
+.second--table {
+  height: 100%;
+  width: 20em;
+  text-align: center;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.second--table tr:nth-child(1) td:nth-child(1) {
+  background-color: #c2d8f0;
+}
+.second--table tr:nth-child(1) td:nth-child(2) {
+  background-color: #f7d95e;
+}
+.second--table tr:nth-child(1) td:nth-child(3) {
+  background-color: #afd18a;
+}
+
+.second--table tr:nth-child(2) td:nth-child(1) {
+  background-color: #adabaa;
+}
+.second--table tr:nth-child(2) td:nth-child(2) {
+  background-color: #e07b28;
+}
+.second--table tr:nth-child(2) td:nth-child(3) {
+  background-color: #5073c7;
+}
+
+.second--table tr:nth-child(3) td:nth-child(1) {
+  background-color: #78ab43;
+}
+.second--table tr:nth-child(3) td:nth-child(2) {
+  background-color: #c9c9c9;
+}
+
+.second--table tr:nth-child(4) td:nth-child(1) {
+  background-color: #4374b5;
+}
+.second--table tr:nth-child(4) td:nth-child(2) {
+  background-color: #ba5802;
+}
+.second--table tr:nth-child(4) td:nth-child(3) {
+  background-color: #ba8f00;
+}
+
+/* ------------------------THIRD TABLE----------------------- */
+
+.third--table {
+  height: 100%;
+  width: 20em;
+  text-align: center;
+  border-collapse: collapse;
+  border: 0.1em solid #111;
+}
+
+.third--table tr:nth-child(1) td:nth-child(1) {
+  background-color: #c2d8f0;
+  border: none;
+}
+.third--table tr:nth-child(1) td:nth-child(2) {
+  background-color: #f7d95e;
+}
+.third--table tr:nth-child(1) td:nth-child(3) {
+  background-color: #afd18a;
+}
+
+.third--table tr:nth-child(2) td:nth-child(1) {
+  background-color: #5073c7;
+  border: none;
+}
+
+.third--table tr:nth-child(3) td:nth-child(1) {
+  background-color: #78ab43;
+  border: none;
+}
+
+.third--table tr:nth-child(4) td:nth-child(1) {
+  background-color: #adabaa;
+  border: none;
+}
+.third--table tr:nth-child(4) td:nth-child(2) {
+  background-color: #4375ba;
+}
+.third--table tr:nth-child(4) td:nth-child(3) {
+  background-color: #ba5802;
+}
+
+/* ------------------------FORTH TABLE----------------------- */
+
+.forth--table {
+  height: 100%;
+  width: 100%;
   text-align: center;
 }
 
-.second--table {
-  border: 0.1em solid #111;
+.fifth--table {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.sixth--table {
   height: 100%;
   width: 100%;
   text-align: center;
