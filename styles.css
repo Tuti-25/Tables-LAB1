@@ -4,14 +4,12 @@ body {
 }
 
 .main--table {
-  border: 0.1em solid #111;
   width: 100%;
   height: 100%;
   margin: 1em;
 }
 
 td {
-  border: 0.1em solid #111;
   padding: 1em;
 }
 
@@ -23,6 +21,11 @@ td {
   width: 10em;
   border-collapse: collapse;
   margin: auto;
+  border: 0.1em solid #111;
+}
+
+.first--table td {
+  border: 0.1em solid #111;
 }
 .first--table tr {
   font-size: 0.6em;
@@ -45,6 +48,9 @@ td {
   margin: auto;
 }
 
+.second--table td {
+  border: 0.1em solid #111;
+}
 .second--table tr:nth-child(1) td:nth-child(1) {
   background-color: #c2d8f0;
 }
@@ -91,6 +97,9 @@ td {
   border-collapse: collapse;
   border: 0.1em solid #111;
   margin: auto;
+}
+.third--table td {
+  border: 0.1em solid #111;
 }
 
 .third--table tr:nth-child(1) td:nth-child(1) {
@@ -186,6 +195,10 @@ td {
   font-family: "Times New Roman";
 }
 
+.fifth--table td {
+  border: 0.1em solid #111;
+}
+
 .fifth--table * {
   font-weight: 900;
 }
@@ -227,6 +240,9 @@ h3 {
   font-weight: 900;
 }
 
+.sixth--table td {
+  border: none;
+}
 .td--0 {
   background-color: #c267a5;
 }
@@ -244,6 +260,7 @@ h3 {
 }
 .td--5 {
   background-color: #78cc8c;
+  padding: 0;
 }
 .td--6 {
   background-color: #7acccb;
@@ -253,4 +270,32 @@ h3 {
 }
 .td--8 {
   background-color: #7a66d1;
+}
+.sixth--table .td--left {
+  border-left: 0.1em solid #111;
+}
+.sixth--table .td--right {
+  border-right: 0.1em solid #111;
+}
+
+.sixth--table .td--0,
+.sixth--table .td--1,
+.sixth--table .td--2,
+.sixth--table .td--3,
+.sixth--table .td--4,
+.sixth--table .td--5,
+.sixth--table .td--6,
+.sixth--table .td--7,
+.sixth--table .td--8 {
+  border: 0.1em solid #111;
+}
+
+.sixth--table .td--0,
+.sixth--table .td--3,
+.sixth--table .td--4 {
+  border-bottom: none;
+}
+
+h1 {
+  text-align: center;
 }
